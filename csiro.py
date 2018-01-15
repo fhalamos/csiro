@@ -9,17 +9,10 @@ cache['foo'] = 1
 def start(): 
     if cache['foo']==1:
     	cache['foo']=2
-    	return redirect("https://docs.google.com/forms/d/e/1FAIpQLSeoBILwagcyCB6mewN0k0Ss9VSfjYRWfyhZpgleEhufPI8Ryg/viewform", code=302)
+    	return redirect("https://docs.google.com/forms/d/e/1FAIpQLScm2UtvEWgHYjXD5C1JvgSdbem-n3K6E6CYC4vE4Yzu1DXWSw/viewform", code=302)
     elif cache['foo']==2:
-    	cache['foo']=3
-    	return redirect("https://docs.google.com/forms/d/e/1FAIpQLSeN-0nIRL-EwJUtVyO23fXbcInqN3Z2PAf4hAYFIEsAWBYeJQ/viewform", code=302)
-    elif cache['foo']==3:
-    	cache['foo']=4
-    	return redirect("https://docs.google.com/forms/d/e/1FAIpQLSc43vtJYsv12JrfPh4tu6Qtzmqxb2aa1DMLcysZjq2bAerVCg/viewform", code=302)
-    elif cache['foo']==4:
     	cache['foo']=1
-    	return redirect("https://docs.google.com/forms/d/e/1FAIpQLSfbmEe-7eBfuQN_DL2HiWOxR_WCCvGjJrGQNARKLpcVA9zWTQ/viewform", code=302)    	
-
+    	return redirect("https://docs.google.com/forms/d/e/1FAIpQLSfaY3VHOQdZhi09ejcvCb0YbKzHKQptYSWf3Sd4WiQW_Mq5gw/viewform", code=302)
 
 
 
