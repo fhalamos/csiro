@@ -44,7 +44,7 @@ def cantRespuestas(linkRespForm):
 		if fila != "":
 			contador = contador+1
 
-	print contador
+	print (contador)
 	return contador
 
 
