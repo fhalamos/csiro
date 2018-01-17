@@ -1,1 +1,1 @@
-web: gunicorn -w 4 -b 0.0.0.0:$PORT -k gevent csiro:app
+web: gunicorn csiro:app --log-file=-
