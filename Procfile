@@ -1,1 +1,1 @@
-web: gunicorn csiro:app --log-file=-
+web: gunicorn csiro:app
